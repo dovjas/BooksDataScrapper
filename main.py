@@ -14,7 +14,7 @@ with open("knygos.csv", "w", encoding="utf8", newline='') as file:
         books = soup.find_all("div", {"class": "product"})
         for book in books:
             try:
-                author = book.find("span", {"class": "book-properties book-author"}).text.strip()
+                author = book.find("span", {"class": "book-properties book-author"}).text.strip() if len(book.find("span",{"class":"book-properties book-author"})) !=0 else 'No data'
             except:
                 author = 'No data'
             try:

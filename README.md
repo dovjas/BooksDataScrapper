@@ -1,4 +1,8 @@
-Books Data Scraper
+<h1>Books Data Scraper<h1>
+
+This is a python 3 web scraping script to get books reviews from goodreads.com,
+using the web browser automation tool Selenium, and BeautifulSoup for pulling data out of HTML.
+I used it to scrape around 700k Arabic reviews in 2018 (Arabic reviews are fewer than English ones).
 
 
 Modules:

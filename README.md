@@ -2,10 +2,12 @@
 
 This is a python web scraping script to get the newest books data from knygos.lt.
 
-Modules
+Modules:
 - BeautifulSoup;
 - Request;
 - CSV;
+
+Explanation: 
 
 1. Use Requests to fetch URL;
 2. Create BeautifulSoup object and parse HTML content;

@@ -1,6 +1,6 @@
 <h1>Books Data Scraper</h1>
 
-This is a python web scraping script to get the newest books data from knygos.lt.
+This is a python web scraping script to get the newest books data from knygos.lt
 
 Modules:
 - BeautifulSoup;

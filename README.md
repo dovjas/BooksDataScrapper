@@ -15,6 +15,6 @@ Modules
 - New price,
 - Old price,
 - Stock;
-- Loop over(pagination);
-- Create csv file and fill with data.
+4. Loop over(pagination);
+5. Create csv file and fill with data.
 

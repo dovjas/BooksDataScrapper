@@ -4,7 +4,7 @@ This is a python web scraping script to get the newest books data from knygos.lt
 
 Modules:
 - BeautifulSoup;
-- Request;
+- Requests;
 - CSV;
 
 Explanation: 
